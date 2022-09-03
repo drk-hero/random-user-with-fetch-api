@@ -1,0 +1,23 @@
+@media screen and (max-width: 640px) {
+    .login-header .login-header-pasw .time-to-login .row-by-pass .form-login .labele-login {
+        padding-left: 1.5em !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .login-header .login-header-pasw .time-to-login .row-by-pass .box-user-pss {
+        position: relative;
+        left: 27%;
+        margin-bottom: 35px;
+    }
+    .login-header #aboute-login .logi-row .info-header .container #resetall {
+        margin: auto;
+    }
+    .login-header #aboute-login .logi-row .info-header>.row .info-table {
+        /* border-right: 2px solid rgba(238, 238, 238, 0.3098039216); */
+        border-top: 2px solid rgba(238, 238, 238, 0.3098039216);
+    }
+    .login-header #aboute-login .logi-row .info-header>.row {
+        padding: 25px;
+    }
+}

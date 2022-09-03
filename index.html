@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rahmat saghafi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/local.css">
+</head>
+
+<body>
+    <main class="container-fluid login-header">
+        <div id="bg-img"></div>
+        <section class="login-header-pasw">
+            <div class="container-fluid time-to-login">
+                <div class="row justify-content-end align-items-center align-items-md-end row-by-row">
+                    <div class="col-12 col-md-6 d-flex set-time-to">
+                        <h2 id="timeset"></h2>
+                        <p>
+                            <i id="checktime" class="bi "></i>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 btn-to-login">
+                        <button class="m-auto m-md-0" onclick="_clicked()" id="btn-login">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- pss login -->
+                <div class="row justify-content-end align-items-end row-by-pass">
+                    <div class="container">
+                        <div class="col-5 box-user-pss"></div>
+                    </div>
+                    <div class="container text-center form-login">
+                        <label class="labele-login" for="user-name">User Name</label>
+                        <input id="user-name" type="text" name="Username">
+                        <label class="labele-login" for="paas-word">password</label>
+                        <input type="password" id="paas-word" name="password">
+                        <button id="loginbtn">Login</button>
+                        <span id="cancele">cancel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- whater sec 2 -->
+        <section id="aboute-login" class="login-header-pasw">
+            <div class="container">
+                <div class="row logi-row">
+                    <figure class="col-12 col-lg-4 figure-header">
+                        <img id="figure-img" src="" alt="">
+                        <figcaption id="name-last"></figcaption>
+                    </figure>
+                    <div class="col-12 col-lg-8 info-header">
+                        <div class="container">
+                            <button onclick="_resetlogin()" id="resetall">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                            </button>
+                        </div>
+                        <div class="row">
+                            <p>info: <span id="name-first"></span></p>
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>gender</span>
+                                <span id="gender"></span>
+                            </div>
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>email</span>
+                                <span id="emailed"></span>
+                            </div>
+                            <!-- repeat -->
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>phone</span>
+                                <span id="phonenum"></span>
+                            </div>
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>birth date</span>
+                                <span id="birthDate"></span>
+                            </div>
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>age</span>
+                                <span id="age"></span>
+                            </div>
+                            <div class="col-12 col-lg-6 info-table">
+                                <span>address</span>
+                                <span id="address"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+</body>
+<script></script>
+<script src="master.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<!-- https://jsonplaceholder.typicode.com/users -->
+
+</html>
